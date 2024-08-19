@@ -5,14 +5,14 @@
 ### Installation
 
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone git@github.com:KevinYu3214/TamilAlphabetGame.git
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 ### Scripts
 
