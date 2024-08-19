@@ -1,0 +1,94 @@
+.current-letter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.current-letter {
+  font-size: 96px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 35px;
+}
+
+.correct-romanization {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 80px;
+  visibility: hidden; 
+}
+
+.correct-romanization.visible {
+  visibility: visible; 
+}
+
+.mnemonic {
+  font-size: 16px;
+  color: #1b1b1b; 
+  text-align: center;
+  margin-top: 10px;
+  height: 20px; 
+  visibility: hidden;
+}
+
+.mnemonic.visible {
+  visibility: visible; 
+}
+
+.score-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.score-item {
+  font-size: 16px;
+  flex: 1;
+  text-align: center;
+}
+
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.input-box {
+  padding: 8px;
+  font-size: 20px;
+  width: 30%;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.input-box.wrong {
+  animation: shake 0.3s ease;
+}
+
+.high-scores-container {
+  margin-top: 25px;
+}
+
+.high-scores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.high-scores-table th, .high-scores-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.high-scores-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}

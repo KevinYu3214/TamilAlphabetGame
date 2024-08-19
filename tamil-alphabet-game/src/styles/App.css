@@ -1,0 +1,104 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #050505; 
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.instructions-text {
+  font-size: 16px;
+  color: #050505; 
+  font-weight: medium;
+  text-align: center;
+  max-width: 90%;
+  white-space: normal;
+  word-wrap: break-word;
+  margin: 17px auto; 
+
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px; 
+}
+
+.select-all-container {
+  width: 100px; 
+  text-align: right; 
+}
+
+.select-all-text {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  color: #666666; 
+  white-space: nowrap; 
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.select-all-text:hover {
+  color: black;
+}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+}
+
+.page-number {
+  cursor: pointer;
+  font-size: 20px;
+  color: #666666; 
+  padding: 8px 12px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.page-number.current-page {
+  font-weight: bold;
+  color: black; 
+  background-color: #f0f0f0;
+}
+
+.page-number:hover {
+  background-color: #e0e0e0; 
+}
+
+@media (max-width: 768px) {
+  .page-number {
+    margin: 0 8px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-number {
+    margin: 0 6px;
+    padding: 5px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-number {
+    margin: 0 4px;
+    padding: 4px 6px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
