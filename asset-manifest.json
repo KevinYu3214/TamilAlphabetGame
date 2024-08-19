@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TamilAlphabetGame/static/css/main.e3146186.css",
-    "main.js": "/TamilAlphabetGame/static/js/main.d04387dc.js",
+    "main.js": "/TamilAlphabetGame/static/js/main.708cae5f.js",
     "index.html": "/TamilAlphabetGame/index.html",
     "main.e3146186.css.map": "/TamilAlphabetGame/static/css/main.e3146186.css.map",
-    "main.d04387dc.js.map": "/TamilAlphabetGame/static/js/main.d04387dc.js.map"
+    "main.708cae5f.js.map": "/TamilAlphabetGame/static/js/main.708cae5f.js.map"
   },
   "entrypoints": [
     "static/css/main.e3146186.css",
-    "static/js/main.d04387dc.js"
+    "static/js/main.708cae5f.js"
   ]
 }
